@@ -60,7 +60,7 @@ jobs:
       - name: Echo full diff
         run: cat ./api-full.json.diff
       - name: Upload full diff to Artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: api-artifact
           path: |
